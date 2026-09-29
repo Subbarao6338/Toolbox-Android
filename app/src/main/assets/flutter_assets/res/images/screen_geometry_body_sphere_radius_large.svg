@@ -1,0 +1,11 @@
+<svg width="200" height="140" viewBox="0 0 200 140">
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-dasharray="5,10" stroke-linecap="round"
+        d="M 40 72 C 40 52.064 160 51.945 160 71.977" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        d="M 40 72 C 40 25.812 90 -3.056 130 20.038 C 148.564 30.756 160 50.564 160 72 C 160 118.188 110 147.056 70 123.962 C 51.436 113.244 40 93.436 40 72" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 40 72 C 40 91.935 160 92.055 160 72.023" />
+    <path id="outlineDark" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 100 12 L 100 72" />
+</svg>

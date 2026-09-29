@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 512 512">
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linejoin="round"
+        d="M 480 381 L 30 381 L 130 131 L 380 131 Z" />
+    <path id="accent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M 130 131 L 130 381" />
+</svg>
