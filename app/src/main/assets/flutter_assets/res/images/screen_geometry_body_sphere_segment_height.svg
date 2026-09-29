@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 512 512">
+    <path id="transparent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M481,318.018c0-36.996-100.626-67.518-224.977-67.518h-0.047C131.624,250.5,31,280.728,31,317.726" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M31.252,313.646C19.96,219.451,77.986,157.911,138.237,125.255" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M480.748,313.646c11.292-94.195-46.734-155.735-106.985-188.393" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M481.166,313.208c0,55.64-100.607,101.542-224.934,101.542h-0.047c-124.328,0-224.933-45.463-224.933-101.104" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M384.21,142.527c0-24.81-57.133-45.277-127.736-45.277h-0.027c-70.605,0-127.737,20.271-127.737,45.081" />
+    <path id="accent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M 256.46 313.208 L 256.46 142.527" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M384.21,142.527c0,31.597-57.133,57.665-127.737,57.665h-0.027c-70.605,0-127.737-25.817-127.737-57.415" />
+</svg>

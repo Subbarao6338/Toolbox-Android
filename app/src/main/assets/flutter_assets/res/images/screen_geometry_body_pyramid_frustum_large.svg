@@ -1,0 +1,34 @@
+<svg width="200" height="140" viewBox="0 0 200 140">
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-dasharray="5,10" stroke-linecap="round" d="M 55 86.978 L 175 87.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-dasharray="5,10" stroke-linecap="round" d="M 80 27 L 55.011 87.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-dasharray="5,10" stroke-linecap="round" d="M 25.011 117.023 L 55.011 87.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 60 42 L 25.011 117" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 145.011 117.023 L 175.011 87.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 120 42 L 145.011 117" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 140 27 L 175.011 87.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 80 26.978 L 140 27" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 60 42 L 80 27" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 120 42 L 140 27" />
+    <path id="outlineDark" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 60 41.978 L 120 42" />
+    <path id="outlineDark" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 25 116.978 L 145 117.023" />
+    <path id="outlineDark" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 100 35 L 100.011 102" />
+    <path id="outlineDark" fill="#666666"
+        d="M 58.467 30.983 L 57.377 28.013 L 52.617 28.013 L 51.547 30.983 L 49.997 30.983 L 54.337 19.603 L 55.657 19.603 L 60.007 30.983 L 58.467 30.983 Z M 54.997 21.463 L 53.067 26.783 L 56.937 26.783 L 54.997 21.463 Z" />
+    <path id="outlineDark" fill="#666666"
+        d="M 85.047 139.327 L 81.097 139.327 L 81.097 127.947 L 84.817 127.947 C 86.05 127.947 86.977 128.204 87.597 128.717 C 88.224 129.23 88.537 129.987 88.537 130.987 C 88.537 131.514 88.384 131.984 88.077 132.397 C 87.777 132.804 87.367 133.12 86.847 133.347 C 87.46 133.514 87.947 133.84 88.307 134.327 C 88.66 134.807 88.837 135.38 88.837 136.047 C 88.837 137.067 88.507 137.867 87.847 138.447 C 87.187 139.034 86.254 139.327 85.047 139.327 Z M 85.097 134.007 L 82.597 134.007 L 82.597 138.097 L 85.077 138.097 C 85.77 138.097 86.32 137.917 86.727 137.557 C 87.127 137.197 87.327 136.697 87.327 136.057 C 87.327 134.69 86.584 134.007 85.097 134.007 Z M 82.597 129.187 L 82.597 132.807 L 84.867 132.807 C 85.52 132.807 86.044 132.64 86.437 132.307 C 86.83 131.98 87.027 131.537 87.027 130.977 C 87.027 130.35 86.844 129.897 86.477 129.617 C 86.117 129.33 85.564 129.187 84.817 129.187 L 82.597 129.187 Z" />
+    <path id="outlineDark" fill="#666666"
+        d="M 120.326 62.572 L 120.326 73.952 L 118.816 73.952 L 118.816 68.692 L 113.086 68.692 L 113.086 73.952 L 111.586 73.952 L 111.586 62.572 L 113.086 62.572 L 113.086 67.472 L 118.816 67.472 L 118.816 62.572 L 120.326 62.572 Z" />
+</svg>

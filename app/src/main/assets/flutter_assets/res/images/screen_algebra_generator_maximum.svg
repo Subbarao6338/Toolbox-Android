@@ -1,0 +1,5 @@
+<svg width="512" height="512" viewBox="0 0 60 60">
+    <path id="secondary" fill="#e37e76"
+        d="m29.3 23.293-9 10a1 1 0 0 0 .7 1.707h5v12a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-12h5a1 1 0 0 0 .707-1.707l-9-10a1 1 0 0 0 -1.407 0z" />
+    <rect id="primary" fill="#cb2e2e" height="8" rx="2" width="58" x="1" y="11" />
+</svg>

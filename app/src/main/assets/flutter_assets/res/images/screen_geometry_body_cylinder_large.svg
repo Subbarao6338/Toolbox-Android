@@ -1,0 +1,23 @@
+<svg width="200" height="140" viewBox="0 0 200 140">
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-dasharray="5,10" stroke-linecap="round"
+        d="M 60.028 117 C 60.028 103.709 140.027 103.63 140.027 116.985" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 59.972 27.031 L 59.972 117.031" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 139.973 27.031 L 139.973 117.031" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 60.028 117 C 60.028 130.291 140.027 130.371 140.027 117.015" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 60.028 27 C 60.028 40.291 140.027 40.371 140.027 27.015" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 60.028 27 C 60.028 13.709 140.027 13.63 140.027 26.985" />
+    <path id="outlineDark" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 100.027 27 L 100.072 117.031" />
+    <path id="outlineDark" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 60.016 117 L 100.016 117.023" />
+    <path id="outlineDark" fill="#666666"
+        d="M 48.18 122.463 L 45.71 117.863 L 43.04 117.863 L 43.04 122.463 L 41.53 122.463 L 41.53 111.083 L 45.3 111.083 C 46.58 111.083 47.567 111.376 48.26 111.963 C 48.947 112.543 49.29 113.393 49.29 114.513 C 49.29 115.22 49.1 115.836 48.72 116.363 C 48.333 116.89 47.8 117.283 47.12 117.543 L 49.79 122.373 L 49.79 122.463 L 48.18 122.463 Z M 43.04 112.323 L 43.04 116.633 L 45.35 116.633 C 46.09 116.633 46.68 116.44 47.12 116.053 C 47.56 115.673 47.78 115.16 47.78 114.513 C 47.78 113.806 47.57 113.266 47.15 112.893 C 46.73 112.52 46.127 112.33 45.34 112.323 L 43.04 112.323 Z" />
+    <path id="outlineDark" fill="#666666"
+        d="M 119.821 66.088 L 119.821 77.468 L 118.311 77.468 L 118.311 72.208 L 112.581 72.208 L 112.581 77.468 L 111.081 77.468 L 111.081 66.088 L 112.581 66.088 L 112.581 70.988 L 118.311 70.988 L 118.311 66.088 L 119.821 66.088 Z" />
+</svg>

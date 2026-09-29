@@ -1,0 +1,16 @@
+<svg width="200" height="140" viewBox="0 0 200 140">
+    <path id="outline" fill="#666666"
+        d="M 45.16 54.942 L 124.622 54.942 L 154.944 25.148 L 155.084 104.987 L 125.3 134.857 L 45.032 135.152" />
+    <path id="outline" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 45 55.023 L 75 25.023" />
+    <path id="outline" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 125 55.023 L 155 25.023" />
+    <path id="outline" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 125 135.023 L 155 105.023" />
+    <path id="outline" fill="none" stroke="#666666" stroke-width="2" stroke-linejoin="round"
+        d="M 45 55.023 L 125 55.023 L 125 135.023 L 45 135.023 L 45 55.023 Z" />
+    <path id="outline" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 74.978 24.978 L 155 25.023" />
+    <path id="outline" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 155 25.023 L 155 105.023" />
+</svg>
