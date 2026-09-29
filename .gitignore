@@ -13,6 +13,3 @@
 backup/*.txt
 logcat*.txt
 live_logcat.txt
-extracted_new_folder/
-/extracted_new_folder
-/extracted_new_folder/
