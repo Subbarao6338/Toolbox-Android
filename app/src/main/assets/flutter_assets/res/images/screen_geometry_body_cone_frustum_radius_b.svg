@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 512 512">
+    <path id="transparent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M480.706,388.458c0-46.553-100.607-84.958-224.934-84.958h-0.047c-124.328,0-224.933,38.038-224.933,84.591" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M480.706,388.458c0,55.64-100.607,101.542-224.934,101.542h-0.047c-124.328,0-224.933-45.463-224.933-101.104" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 383.588 67.777 L 481.017 388.779" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 30.792 388.896 L 128.086 67.777" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M383.75,67.777c0,31.597-57.133,57.665-127.737,57.665h-0.027c-70.605,0-127.737-25.818-127.737-57.415" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M383.75,67.777c0-24.81-57.133-45.277-127.736-45.277h-0.027c-70.605,0-127.737,20.271-127.737,45.081" />
+    <path id="accent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M 30.598 388.46 L 257 388.458" />
+</svg>

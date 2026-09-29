@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 512 512">
+    <path id="primary" fill="#666666" stroke="#666666" stroke-width="48" stroke-linejoin="round"
+        d="M 28 166 H 348 V 485 H 28 V 166 Z" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linejoin="round"
+        d="M 348 166 L 28 166 L 163.802 27 L 483.803 27 Z" />
+    <path id="primary" fill="#666666" stroke="#666666" stroke-width="48" stroke-linejoin="round"
+        d="M 348 166 L 484 30.821 L 484 349.82 L 348 485 Z" />
+</svg>

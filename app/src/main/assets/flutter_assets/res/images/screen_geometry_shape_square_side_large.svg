@@ -1,0 +1,6 @@
+<svg width="200" height="140" viewBox="0 0 200 140">
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linejoin="round" d="M 50 23 L 150 23 L 150 123 L 50 123 L 50 23 Z" />
+    <path id="outlineDark" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 49.974 123 L 149.974 123" />
+</svg>

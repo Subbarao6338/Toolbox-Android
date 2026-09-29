@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 512 512">
+    <path id="transparent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M481,317.018c0-40.832-100.626-74.518-224.977-74.518h-0.047C131.624,242.5,31,275.862,31,316.695" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M481,317.018c0,55.65-100.626,101.562-224.977,101.562h-0.047C131.624,418.579,31,373.107,31,317.456" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M31,318.42c0-124.264,100.736-225,225-225c124.264,0,225,100.736,225,225" />
+    <path id="accent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M 30.013 322.729 L 256 317.018" />
+</svg>

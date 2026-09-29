@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512">
+    <g transform="scale(0.875) translate(105,0)">
+        <path id="primary" fill="#62dbfb" d="m37.618 105.526v300.948h436.765v-300.948" />
+        <path id="primary" fill="#01d0fb" d="m117.91 79.241v355.423l-80.293-28.185v-300.958z" />
+        <ellipse id="primaryDark" fill="#01c0fa" cx="256" cy="406.474" rx="218.382" ry="105.526" />
+        <ellipse id="secondaryDark" fill="#99e6fc" cx="256" cy="105.526" rx="218.382"
+            ry="105.526" />
+    </g>
+    <g transform="scale(0.975) translate(-260,13)">
+        <path id="accent" fill="#fff16b"
+            d="m400.47 210.399c-2.519-5.14-7.745-8.399-13.47-8.399s-10.951 3.259-13.47 8.399l-107.562 220.292h121.032 121.032z" />
+        <path id="accentDark" fill="#ffb655"
+            d="m400.47 210.399c-2.519-5.14-7.745-8.399-13.47-8.399v228.691h121.032z" />
+        <ellipse id="accent" fill="#ffb655" cx="387" cy="447" rx="125" ry="65" />
+        <path id="accentDark" fill="#ff8659"
+            d="m387 382v130c69.036 0 125-29.102 125-65s-55.964-65-125-65z" />
+    </g>
+</svg>

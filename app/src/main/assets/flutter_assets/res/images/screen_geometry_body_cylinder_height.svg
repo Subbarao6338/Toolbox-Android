@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 512 512">
+    <path id="transparent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M375.834,427.68c0-30.429-53.673-55.68-120-55.68h-0.025c-66.328,0-120,24.938-120,55.366" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 135.809 87.366 L 136.209 432.457" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 376 88 L 376 428" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M375.834,87.68c0-30.429-53.673-55.68-120-55.68h-0.025c-66.328,0-120,24.937-120,55.366" />
+    <path id="accent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M 256 432.457 L 255.821 76.741" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M375.834,427.828c0,29.684-53.673,54.172-120,54.172h-0.025c-66.328,0-120-24.254-120-53.938" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M375.834,87.828c0,29.684-53.673,54.172-120,54.172h-0.025c-66.328,0-120-24.254-120-53.938" />
+</svg>

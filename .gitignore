@@ -13,4 +13,4 @@
 backup/*.txt
 logcat*.txt
 live_logcat.txt
-unpacked/
+app/src/main/assets/
