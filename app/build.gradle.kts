@@ -4,10 +4,16 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
-fun getKeychainPassword(account: String, service: String): String {
-    return Runtime.getRuntime()
-        .exec(arrayOf("security", "find-generic-password", "-a", account, "-s", service, "-w"))
-        .inputStream.bufferedReader().readLine() ?: ""
+fun getSigningProperty(envName: String, keychainAccount: String, keychainService: String, fallback: String = ""): String {
+    val envVal = System.getenv(envName)
+    if (!envVal.isNullOrEmpty()) return envVal
+    return try {
+        Runtime.getRuntime()
+            .exec(arrayOf("security", "find-generic-password", "-a", keychainAccount, "-s", keychainService, "-w"))
+            .inputStream.bufferedReader().readLine()?.takeIf { it.isNotBlank() } ?: fallback
+    } catch (_: Throwable) {
+        fallback
+    }
 }
 
 android {
@@ -26,10 +32,13 @@ android {
 
     signingConfigs {
         create("release") {
-            storeFile = file("${System.getProperty("user.home")}/.android/release.jks")
-            storePassword = getKeychainPassword("release-key", "android-release-keystore")
-            keyAlias = "release-key"
-            keyPassword = getKeychainPassword("release-key", "android-release-keystore")
+            val userJks = file("${System.getProperty("user.home")}/.android/release.jks")
+            val backupJks = file("${project.rootDir}/backup/release.jks")
+            storeFile = if (userJks.exists()) userJks else backupJks
+            val pwd = getSigningProperty("RELEASE_STORE_PASSWORD", "release-key", "android-release-keystore", "android")
+            storePassword = pwd
+            keyAlias = System.getenv("RELEASE_KEY_ALIAS") ?: "release-key"
+            keyPassword = getSigningProperty("RELEASE_KEY_PASSWORD", "release-key", "android-release-keystore", pwd)
         }
     }
 
@@ -82,7 +91,6 @@ dependencies {
 
     implementation(libs.zxing.core)
     implementation(libs.mlkit.text.recognition)
-    implementation(libs.mlkit.document.scanner)
 
     implementation(libs.activity.compose)
     implementation(libs.core.ktx)
