@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 512 512">
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 56 425 L 256 85" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 456 429 L 56 425" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 256 85 L 456 425" />
+    <g transform="scale(1.5) translate(-85, -20)">
+        <path id="accent" fill="#999999"
+            d="M255.522,133.818l22.319-38.258c6.958-11.925,2.93-27.234-8.995-34.192c-11.926-6.957-27.234-2.93-34.192,8.996l-36.866,63.192L255.522,133.818z" />
+        <path id="accent" fill="#999999"
+            d="M314.248,134.084L277.955,70.56c-6.849-11.988-22.12-16.154-34.108-9.305c-3.947,2.255-7.046,5.423-9.184,9.086c-4.354,7.463-4.716,16.982-0.122,25.022l21.973,38.458L314.248,134.084z" />
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 512 512">
+    <path id="primary" fill="#666666" d="M 251.5 25.5 L 17.5 485 L 353.5 494.5 L 496.5 349.82" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 348 485 L 28 485" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 484 349.82 L 348 485" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 28 485 L 256 33.5" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 256 33.5 L 348 485" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 256 33.5 L 484 349.82" />
+</svg>

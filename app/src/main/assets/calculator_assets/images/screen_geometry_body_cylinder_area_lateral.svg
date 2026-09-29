@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512">
+    <path id="primary" fill="#666666"
+        d="M 254.231 145.174 L 285.507 142.908 L 315.814 134.208 L 347.629 122.183 L 373.346 100.186 L 377.192 431.172 L 351.594 455.47 L 318.669 470.651 L 283.288 480.428 L 247.712 481.637 L 217.585 478.388 L 190.415 470.832 L 160.789 459.406 L 135.948 441.972 L 136.102 98.503 L 157.649 116.261 L 183.437 131.693 L 216.069 141.505 L 254.231 145.174 Z" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 135.809 87.366 L 136.209 432.457" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M 376 88 L 376 428" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M375.834,427.828c0,29.684-53.673,54.172-120,54.172h-0.025c-66.328,0-120-24.254-120-53.938" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M375.834,87.828c0,29.684-53.673,54.172-120,54.172h-0.025c-66.328,0-120-24.254-120-53.938" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linecap="round"
+        d="M375.834,87.68c0-30.429-53.673-55.68-120-55.68h-0.025c-66.328,0-120,24.937-120,55.366" />
+</svg>

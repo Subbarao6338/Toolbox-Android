@@ -1,0 +1,23 @@
+<svg width="200" height="140" viewBox="0 0 200 140">
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-dasharray="5,10" stroke-linecap="round" d="M 74.978 104.978 L 155 105.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-dasharray="5,10" stroke-linecap="round" d="M 75 25.023 L 75 105.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-dasharray="5,10" stroke-linecap="round" d="M 45 135.023 L 75 105.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 45 55.023 L 75 25.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 125 55.023 L 155 25.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 125 135.023 L 155 105.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linejoin="round"
+        d="M 45 55.023 L 125 55.023 L 125 135.023 L 45 135.023 L 45 55.023 Z" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 74.978 24.978 L 155 25.023" />
+    <path id="outline" fill="none" opacity="0.33" stroke="#999999" stroke-width="2"
+        stroke-linecap="round" d="M 155 25.023 L 155 105.023" />
+    <path id="outlineDark" fill="none" stroke="#666666" stroke-width="2" stroke-linecap="round"
+        d="M 44.978 134.978 L 125 135.023" />
+</svg>

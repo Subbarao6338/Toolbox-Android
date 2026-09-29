@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 60 60">
+    <path id="primary" fill="#e64c3c" d="m49 9v4h-48v-4a4 4 0 0 1 4-4h40a4 4 0 0 1 4 4z" />
+    <path id="tertiary" fill="#ecf0f1" d="m49 13v22l-32 15h-12a4 4 0 0 1 -4-4v-33z" />
+    <rect id="accentDark" fill="#24ae5f" height="24" rx="1" width="42" x="17" y="35" />
+    <rect id="dimmed" fill="#f3d55b" height="8" rx="2" width="4" x="28" y="1" />
+    <rect id="dimmed" fill="#f3d55b" height="8" rx="2" width="4" x="18" y="1" />
+    <rect id="dimmed" fill="#f3d55b" height="8" rx="2" width="4" x="8" y="1" />
+    <rect id="dimmed" fill="#f3d55b" height="8" rx="2" width="4" x="38" y="1" />
+    <rect id="tertiaryDark" fill="#bdc3c7" height="6" rx="1" width="6" x="17" y="18" />
+    <rect id="tertiaryDark" fill="#bdc3c7" height="6" rx="1" width="6" x="7" y="18" />
+    <rect id="tertiaryDark" fill="#bdc3c7" height="6" rx="1" width="6" x="27" y="18" />
+    <rect id="tertiaryDark" fill="#bdc3c7" height="6" rx="1" width="6" x="37" y="18" />
+    <rect id="tertiaryDark" fill="#bdc3c7" height="6" rx="1" width="6" x="7" y="29" />
+    <rect id="tertiaryDark" fill="#bdc3c7" height="6" rx="1" width="6" x="7" y="40" />
+    <rect id="tertiaryDark" fill="#bdc3c7" height="6" rx="1" width="6" x="17" y="29" />
+    <rect id="tertiaryDark" fill="#bdc3c7" height="6" rx="1" width="6" x="27" y="29" />
+    <rect id="tertiaryDark" fill="#bdc3c7" height="6" rx="1" width="6" x="37" y="29" />
+    <path id="accent" fill="#4fba6f"
+        d="m52 55a3 3 0 0 1 3-3v-10a3 3 0 0 1 -3-3h-28a3 3 0 0 1 -3 3v10a3 3 0 0 1 3 3z" />
+    <circle id="accentDark" fill="#7ed09e" cx="27" cy="47" r="2" />
+    <circle id="accentDark" fill="#7ed09e" cx="49" cy="47" r="2" />
+    <circle id="accentDark" fill="#7ed09e" cx="38" cy="47" r="4" />
+</svg>

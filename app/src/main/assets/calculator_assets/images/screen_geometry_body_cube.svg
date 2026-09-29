@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="-24 -24 560 560">
+    <path id="transparent" fill="none" stroke="#999999" stroke-width="56" stroke-linecap="round"
+        d="M 28 485 L 163.802 349.82" />
+    <path id="transparent" fill="none" stroke="#999999" stroke-width="56" stroke-linecap="round"
+        d="M 163.802 349.82 L 163.802 27" />
+    <path id="transparent" fill="none" stroke="#999999" stroke-width="56" stroke-linecap="round"
+        d="M 163.802 349.82 L 484 349.82" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="56" stroke-linejoin="round"
+        d="M 28 166 H 348 V 485 H 28 V 166 Z" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="56" stroke-linejoin="round"
+        d="M 348 166 L 28 166 L 163.802 27 L 483.803 27 Z" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="56" stroke-linejoin="round"
+        d="M 348 166 L 484 30.821 L 484 349.82 L 348 485 Z" />
+</svg>
