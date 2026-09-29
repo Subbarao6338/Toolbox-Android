@@ -1,6 +1,6 @@
 [versions]
 agp = "9.1.0"
-kotlin = "2.3.20"
+kotlin = "2.0.21"
 compose-bom = "2026.03.00"
 navigation = "2.9.7"
 camerax = "1.6.0"
@@ -42,7 +42,6 @@ datastore-preferences = { group = "androidx.datastore", name = "datastore-prefer
 
 zxing-core = { group = "com.google.zxing", name = "core", version.ref = "zxing" }
 mlkit-text-recognition = { group = "com.google.mlkit", name = "text-recognition", version.ref = "mlkit-text-recognition" }
-mlkit-document-scanner = { group = "com.google.android.gms", name = "play-services-mlkit-document-scanner", version.ref = "mlkit-doc-scanner" }
 
 activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
