@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"/>
+    <link rel="stylesheet" href="katex.css"/>
+    <style>
+        body {
+          margin: 0;
+          color: {{color}};
+          font-size: {{size}};
+          overflow: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: {{alignment-x}};
+          justify-content: {{alignment-y}};
+          min-height: 100vh;
+        }
+        .content {
+          opacity: 0;
+          padding: {{padding}};
+          transition: opacity 0.15s;
+        }
+        .katex-display {
+          margin: 0;
+          padding: 0;
+        }
+        .katex {
+          font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+<div class="content">{{data}}</div>
+<script src="katex.js"></script>
+<script src="scripts/render.js"></script>
+<script>
+    const content = document.querySelector(".content");
+    const viewport = document.querySelector('meta[name="viewport"]');
+
+    renderMathInElement(content, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+      ],
+      throwOnError: false,
+    });
+
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      if (content.scrollWidth > document.documentElement.clientWidth) {
+        const scale = Math.max(document.documentElement.clientWidth / content.scrollWidth, 0.25);
+        viewport.setAttribute(
+          "content",
+          `width=device-width, initial-scale=${scale}, maximum-scale=5.0, user-scalable=yes`,
+        );
+      }
+      content.style.opacity = "1";
+    }));
+
+    window.widget?.postMessage("visible");
+</script>
+</body>
+</html>

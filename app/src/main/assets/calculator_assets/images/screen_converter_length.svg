@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 48 48">
+    <path id="primary" fill="#2196f3"
+        d="m16.5 5.5h3a16 16 0 0 1 16 16v17a4 4 0 0 1 -4 4h-17a14 14 0 0 1 -14-14v-7a16 16 0 0 1 16-16z" />
+    <path id="primaryDark" fill="#1e88e5"
+        d="m36.606 16.394-1.516 1.516a16.019 16.019 0 0 0 -5.74-9.03l2.091-.7a2.02 2.02 0 0 1 2.126.561 18.834 18.834 0 0 1 3.469 5.444 2.017 2.017 0 0 1 -.43 2.209z" />
+    <path id="accent" fill="#ffca28" d="m35.5 30.5h9v8h-9z" />
+    <path id="primary" fill="#2196f3"
+        d="m44.5 30.5h2a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1-1v-11a0 0 0 0 1 0 0z" />
+    <circle id="tertiary" fill="#e0e0e0" cx="19" cy="20" r="7.5" />
+    <circle id="primaryDark" fill="#1e88e5" cx="29" cy="35.5" r="2" />
+    <path id="primaryDark" fill="#1e88e5"
+        d="m.83 31.5a14 14 0 0 0 13.67 11h7l-7.8-9.533a4 4 0 0 0 -3.095-1.467z" />
+    <path id="accentDark" fill="#ffb300" d="m40 30.5v3a.5.5 0 0 0 1 0v-3z" />
+</svg>

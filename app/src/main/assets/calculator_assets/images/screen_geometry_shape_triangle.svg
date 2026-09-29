@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="-24 -24 560 560">
+    <path id="primary" fill="none" stroke="#666666" stroke-width="56" stroke-linecap="round"
+        d="M 56 425 L 256 85" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="56" stroke-linecap="round"
+        d="M 456 429 L 56 425" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="56" stroke-linecap="round"
+        d="M 256 85 L 456 425" />
+</svg>

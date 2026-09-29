@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 512 512">
+    <path id="transparent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M 28 406 L 163.802 317.454" />
+    <path id="transparent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M 163.802 317.454 L 163.802 106" />
+    <path id="transparent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M 163.802 317.454 L 484 317.454" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linejoin="round"
+        d="M 28 197.048 H 348 V 406 H 28 V 197.048 Z" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linejoin="round"
+        d="M 348 197.048 L 28 197.048 L 163.802 106 L 483.803 106 Z" />
+    <path id="primary" fill="none" stroke="#666666" stroke-width="48" stroke-linejoin="round"
+        d="M 348 197.048 L 484 108.503 L 484 317.454 L 348 406 Z" />
+    <path id="accent" fill="none" stroke="#999999" stroke-width="48" stroke-linecap="round"
+        d="M 484 317.454 L 348 406" />
+</svg>

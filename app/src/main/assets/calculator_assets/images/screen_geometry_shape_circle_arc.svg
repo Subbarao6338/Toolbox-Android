@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="-24 -24 560 560">
+    <g transform="translate(512, 0) scale(-1, 1)">
+        <path id="primary" fill="none" stroke="#666666" stroke-width="56" stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M480,30.001C480,30,480,480,480,480H30C30,231.472,231.472,30.001,480,30.001" />
+    </g>
+</svg>
