@@ -1,0 +1,22 @@
+<resources>
+    <style name="Calculator.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="Calculator.Display">
+        <item name="android:gravity">end|center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Calculator" />
+</resources>

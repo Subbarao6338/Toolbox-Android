@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Toolbox</string>
+    <string name="app_calculator">Calculator</string>
+    <string name="calculator_black">Calculator Black</string>
+    <string name="calculator_white">Calculator White</string>
     <string name="shortcut_flashlight">Flashlight</string>
     <string name="shortcut_level">Bubble Level</string>
     <string name="shortcut_sound_meter">Sound Meter</string>
