@@ -305,6 +305,43 @@
             </intent-filter>
         </activity>
 
+        <!-- Ported Calculator Tile Service -->
+        <service
+            android:name="application.services.CalculatorTile"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_calculator"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- Ported Calculator Black Widget -->
+        <receiver
+            android:name="application.widgets.CalculatorBlack"
+            android:exported="true"
+            android:label="@string/calculator_black">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/calculator_black" />
+        </receiver>
+
+        <!-- Ported Calculator White Widget -->
+        <receiver
+            android:name="application.widgets.CalculatorWhite"
+            android:exported="true"
+            android:label="@string/calculator_white">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/calculator_white" />
+        </receiver>
     </application>
 
 </manifest>
