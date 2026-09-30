@@ -7,6 +7,10 @@
 /build
 /app/build
 /captures
+/tools
+/temp_dex
+/decompiled_source
+*.zip
 .externalNativeBuild
 .cxx
 *.hprof
