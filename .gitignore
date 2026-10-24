@@ -20,3 +20,4 @@ backup/*.txt
 logcat*.txt
 live_logcat.txt
 app/src/main/assets/
+/legacy/extracted/
