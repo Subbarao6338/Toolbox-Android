@@ -10,7 +10,9 @@
 /tools
 /temp_dex
 /decompiled_source
-*.zip
+# Zip files inside legacy
+legacy/*
+!legacy/*.zip
 .externalNativeBuild
 .cxx
 *.hprof

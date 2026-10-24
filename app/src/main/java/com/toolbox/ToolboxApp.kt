@@ -92,12 +92,22 @@ import com.toolbox.everyday.screenrecorder.ScreenRecorderScreen
 import com.toolbox.everyday.statussaver.StatusSaverScreen
 import com.toolbox.everyday.duplicatephotos.DuplicatePhotosScreen
 import com.toolbox.everyday.storageanalyzer.StorageAnalyzerScreen
+import com.toolbox.conversion.advancedmath.AdvancedMathScreen
+import com.toolbox.everyday.omniweb.OmniWebBrowserScreen
+import com.toolbox.everyday.epicdev.EpicDevHubScreen
+import com.toolbox.everyday.omnibrowser.OmniBrowserSuiteScreen
+import com.toolbox.everyday.omniutility.OmniUtilitySuiteScreen
 import com.toolbox.nav.ScreenshotStitcher
 import com.toolbox.nav.DocumentScanner
 import com.toolbox.nav.ScreenRecorder
 import com.toolbox.nav.StatusSaver
 import com.toolbox.nav.DuplicatePhotos
 import com.toolbox.nav.StorageAnalyzer
+import com.toolbox.nav.AdvancedMath
+import com.toolbox.nav.OmniWebBrowser
+import com.toolbox.nav.EpicDevHub
+import com.toolbox.nav.OmniBrowserSuite
+import com.toolbox.nav.OmniUtilitySuite
 import com.toolbox.conversion.unitcircle.UnitCircleScreen
 import com.toolbox.lighting.FlashlightScreen
 import com.toolbox.everyday.random.RandomScreen
@@ -408,6 +418,11 @@ fun ToolboxApp(themeMode: ThemeMode, launchToolId: String? = null, defaultScreen
                     composable<StatusSaver> { ToolScreen("Status Saver", "status_saver", navController, this@SharedTransitionLayout, this@composable, isDefaultRoot = isDefaultTool && startDest is StatusSaver, accent = androidx.compose.ui.graphics.Color(0xFF2E7D32)) { StatusSaverScreen() } }
                     composable<DuplicatePhotos> { ToolScreen("Duplicate Photos", "duplicate_photos", navController, this@SharedTransitionLayout, this@composable, isDefaultRoot = isDefaultTool && startDest is DuplicatePhotos, accent = androidx.compose.ui.graphics.Color(0xFFF4511E)) { DuplicatePhotosScreen() } }
                     composable<StorageAnalyzer> { ToolScreen("Storage Analyzer", "storage_analyzer", navController, this@SharedTransitionLayout, this@composable, isDefaultRoot = isDefaultTool && startDest is StorageAnalyzer, accent = androidx.compose.ui.graphics.Color(0xFF5E35B1)) { StorageAnalyzerScreen() } }
+                    composable<AdvancedMath> { ToolScreen("Advanced Math & Geometry", "advanced_math", navController, this@SharedTransitionLayout, this@composable, isDefaultRoot = isDefaultTool && startDest is AdvancedMath, accent = androidx.compose.ui.graphics.Color(0xFF673AB7)) { AdvancedMathScreen() } }
+                    composable<OmniWebBrowser> { ToolScreen("Omni Web Browser", "omni_web_browser", navController, this@SharedTransitionLayout, this@composable, isDefaultRoot = isDefaultTool && startDest is OmniWebBrowser, accent = androidx.compose.ui.graphics.Color(0xFF0288D1)) { OmniWebBrowserScreen() } }
+                    composable<EpicDevHub> { ToolScreen("Epic Bookmarks & Dev Hub", "epic_dev_hub", navController, this@SharedTransitionLayout, this@composable, isDefaultRoot = isDefaultTool && startDest is EpicDevHub, accent = androidx.compose.ui.graphics.Color(0xFF009688)) { EpicDevHubScreen() } }
+                    composable<OmniBrowserSuite> { ToolScreen("Omni Browser & Suite", "omni_browser_suite", navController, this@SharedTransitionLayout, this@composable, isDefaultRoot = isDefaultTool && startDest is OmniBrowserSuite, accent = androidx.compose.ui.graphics.Color(0xFF3F51B5)) { OmniBrowserSuiteScreen() } }
+                    composable<OmniUtilitySuite> { ToolScreen("Omni Science & Utility", "omni_utility_suite", navController, this@SharedTransitionLayout, this@composable, isDefaultRoot = isDefaultTool && startDest is OmniUtilitySuite, accent = androidx.compose.ui.graphics.Color(0xFFE91E63)) { OmniUtilitySuiteScreen() } }
                 }
             }
         }
@@ -612,5 +627,10 @@ private fun toolDestination(toolId: String): Any? = when (toolId) {
     "status_saver" -> StatusSaver
     "duplicate_photos" -> DuplicatePhotos
     "storage_analyzer" -> StorageAnalyzer
+    "advanced_math" -> AdvancedMath
+    "omni_web_browser" -> OmniWebBrowser
+    "epic_dev_hub" -> EpicDevHub
+    "omni_browser_suite" -> OmniBrowserSuite
+    "omni_utility_suite" -> OmniUtilitySuite
     else -> null
 }

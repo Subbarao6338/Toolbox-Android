@@ -21,7 +21,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.vedtechnologies.toolbox"
+        applicationId = "sark.tools"
         minSdk = 26
         targetSdk = 36
         versionCode = 14
@@ -101,4 +101,6 @@ dependencies {
     implementation(libs.glance.material3)
 
     implementation(libs.lottie.compose)
+
+    testImplementation("junit:junit:4.13.2")
 }
