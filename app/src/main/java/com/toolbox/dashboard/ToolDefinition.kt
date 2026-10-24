@@ -72,6 +72,7 @@ import androidx.compose.material.icons.filled.AccountBalance
 import androidx.compose.material.icons.filled.PhoneAndroid
 import androidx.compose.material.icons.filled.NetworkCheck
 import androidx.compose.material.icons.filled.Nfc
+import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.Functions
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -784,5 +785,47 @@ val allTools = listOf(
         category = ToolCategory.EverydayTools,
         description = "See what's using your storage — largest files, biggest folders, and a breakdown by file type. Delete space hogs with confirmation.",
         searchKeywords = listOf("storage", "analyzer", "space", "cleaner", "files", "folders", "disk", "usage"),
+    ),
+
+    // Extracted Zip Integrated Self-Contained Tools
+    ToolDefinition(
+        id = "advanced_math",
+        name = "Advanced Math & Geometry",
+        icon = Icons.Default.Functions,
+        category = ToolCategory.ConversionCalculation,
+        description = "Interactive 2D & 3D Geometry calculations, Health metrics, Fuel & Mileage consumption, and Ohm's Law solver.",
+        searchKeywords = listOf("geometry", "math", "formulas", "circle", "triangle", "fuel", "mileage", "ohm", "physics"),
+    ),
+    ToolDefinition(
+        id = "omni_web_browser",
+        name = "Omni Web Browser",
+        icon = Icons.Default.Public,
+        category = ToolCategory.EverydayTools,
+        description = "Full Jetpack Compose WebView browser with built-in AdBlocker, Reader Mode, Page Source viewer, and Markdown support.",
+        searchKeywords = listOf("browser", "web", "omni", "reader", "source", "adblock", "incognito", "internet"),
+    ),
+    ToolDefinition(
+        id = "epic_dev_hub",
+        name = "Epic Bookmarks & Dev Hub",
+        icon = Icons.Default.Bookmark,
+        category = ToolCategory.EverydayTools,
+        description = "Bookmarks Manager with categories, SQL/KQL Formatter, JSON to TypeScript generator, and Flesch Text Readability Analytics.",
+        searchKeywords = listOf("bookmarks", "sql", "kql", "formatter", "json", "typescript", "text", "readability", "flesch"),
+    ),
+    ToolDefinition(
+        id = "omni_browser_suite",
+        name = "Omni Browser & Suite",
+        icon = Icons.Default.Dashboard,
+        category = ToolCategory.EverydayTools,
+        description = "Multi-Engine Browser with Cryptography & Hashing (AES, MD5, SHA256), Subnet Network Diagnostics, and Code Editor.",
+        searchKeywords = listOf("crypto", "hash", "md5", "sha256", "network", "subnet", "editor", "markdown", "browser"),
+    ),
+    ToolDefinition(
+        id = "omni_utility_suite",
+        name = "Omni Science & Utility",
+        icon = Icons.Default.Calculate,
+        category = ToolCategory.EverydayTools,
+        description = "Interactive Periodic Table, Pokédex Search & Stats, Prime Number Verifier, and Real-time Device & Battery Specs.",
+        searchKeywords = listOf("periodic table", "pokedex", "pokemon", "prime", "math", "battery", "science", "elements"),
     ),
 )

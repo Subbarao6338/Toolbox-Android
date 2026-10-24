@@ -120,3 +120,10 @@ import kotlinx.serialization.Serializable
 // Batch 7 Tools
 @Serializable object DuplicatePhotos
 @Serializable object StorageAnalyzer
+
+// Extracted Zip Self-Contained Tools
+@Serializable object AdvancedMath
+@Serializable object OmniWebBrowser
+@Serializable object EpicDevHub
+@Serializable object OmniBrowserSuite
+@Serializable object OmniUtilitySuite
