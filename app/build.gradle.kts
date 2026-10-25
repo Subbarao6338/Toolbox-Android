@@ -4,18 +4,6 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
-fun getSigningProperty(envName: String, keychainAccount: String, keychainService: String, fallback: String = ""): String {
-    val envVal = System.getenv(envName)
-    if (!envVal.isNullOrEmpty()) return envVal
-    return try {
-        Runtime.getRuntime()
-            .exec(arrayOf("security", "find-generic-password", "-a", keychainAccount, "-s", keychainService, "-w"))
-            .inputStream.bufferedReader().readLine()?.takeIf { it.isNotBlank() } ?: fallback
-    } catch (_: Throwable) {
-        fallback
-    }
-}
-
 android {
     namespace = "com.toolbox"
     compileSdk = 36
@@ -31,18 +19,24 @@ android {
     }
 
     signingConfigs {
+        getByName("debug") {
+            storeFile = file("debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
         create("release") {
-            val userJks = file("${System.getProperty("user.home")}/.android/release.jks")
-            val backupJks = file("${project.rootDir}/backup/release.jks")
-            storeFile = if (userJks.exists()) userJks else backupJks
-            val pwd = getSigningProperty("RELEASE_STORE_PASSWORD", "release-key", "android-release-keystore", "android")
-            storePassword = pwd
-            keyAlias = System.getenv("RELEASE_KEY_ALIAS") ?: "release-key"
-            keyPassword = getSigningProperty("RELEASE_KEY_PASSWORD", "release-key", "android-release-keystore", pwd)
+            storeFile = file("debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
         }
     }
 
     buildTypes {
+        debug {
+            signingConfig = signingConfigs.getByName("debug")
+        }
         release {
             signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = true
